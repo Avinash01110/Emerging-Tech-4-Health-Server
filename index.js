@@ -10,7 +10,7 @@ const { cloudinaryConnect } = require("./config/cloudinary");
 const fileUpload = require("express-fileupload");
 const cookieParser = require("cookie-parser");
 const publicationRoutes = require('./routes/Publications')
-const frontPageRoutes = require('./routes/frontPage')
+const frontPageRoutes = require('./routes/FrontPage')
 const teamRoutes = require('./routes/Team')
 // Load environment variables from .env file
 dotenv.config()
